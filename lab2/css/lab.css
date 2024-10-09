@@ -1,6 +1,7 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 p {
   color:midnightblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
