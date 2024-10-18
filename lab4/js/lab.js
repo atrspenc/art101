@@ -1,12 +1,12 @@
 // index.js - purpose and description here
-// Author: Your Name
+// Author: Athena Spencer
 // Date:
 
 // Constants
 
 // Functions
 
-//Pseudocode
+//Pseudocode for Sudoku
   //Print a 3x3 grid
   //Print 3x3 grid in those boxes
   //Print numbers that do not change
