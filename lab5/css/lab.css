@@ -7,3 +7,8 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+.jetta {
+  float right: 10px;
+  max-height: 400px;
+}
