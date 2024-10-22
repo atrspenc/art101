@@ -1,6 +1,8 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 
+// Author: Athena Spencer <atrspenc@ucsc.edu>
+// Date: 21 October
+
+// Define Variables
 
 // Constants
 
