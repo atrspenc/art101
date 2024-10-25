@@ -1,21 +1,21 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Learning Arrays and Objects
+// Author: Athena Spencer
+// Date: 10/24/2024
 
-// Constants
+// Variables
+myTransport = ["UCSC Bus", "walking", "My Personal car"];
 
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+// Object
+myPersonalCar = {
+  Make: "Volkswagen",
+  Model: "Jetta",
+  Color: "Silver",
+  Year: 2012,
+  age: function () {
+    return 2024 - this.year;
+  }
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+// Output
+document.writeln("The kinds of transportation I use around campus:", myTransport, "</br>");
+document.writeln("My personal car <pre>", JSON.stringify(myPersonalCar, null, '/t'), "</pre>");
