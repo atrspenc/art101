@@ -7,13 +7,21 @@
 // Variables
 function sortUserName() {
   var userName = window.prompt("Hi. Please tell me your name so I can fix it.");
-  console.log("userName =", userName) ;
+  console.log("userName =", userName);
   // split string to array
-  var nameArray = userName.split('') ;
-  console.log("nameArray =", nameArraysort) ;
+  var nameArray = userName.split('');
+  console.log("userArray =", nameArraySort);
+  // sort the array
+  var nameArraySort = nameArray.sort();
+  console.log("nameArraySort =", nameArraySort);
+  // join array bacl to a string
+  var nameSorted = nameArraySort.join('');
+  console.log("nameSorted =", nameSorted);
+  return nameSorted;
+  
 }
 
-// Sort the letters of the user's name and return those from the function. Hint: You can't sort strings, but you can sort arrays. Can you convert it back and forth?
-// Make sure your function uses return to return the results.
-// Outside of the function, call the function and output the results with document.writeln() to neatly output the user's sorted name.
-// Strings print nicely on your webpage, so you don't have to use JSON.stringify() this time.
+// output
+document.writeln("Oh hey, I've fixed your name: ",
+  sortUserName(), "</br>");
+
