@@ -1,5 +1,5 @@
-// index.js - purpose and description here
-// Author: Your Name
+// index.js - Lab 7 Funtions
+// Author: Athena Spencer
 // Date:
 
 // Constants
