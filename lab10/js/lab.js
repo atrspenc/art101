@@ -18,3 +18,11 @@ function generateRandomText(){
 // click listener for button
 $("#make-convo").click(function(){
     });
+
+//call function
+//get new fake dialogue
+const newText = generateRandomText();
+
+//select output div and append a new div with newText
+//append a new div to our output dic
+$("#output").append('<div class="text"><p>' + newText + '</p></div>');
