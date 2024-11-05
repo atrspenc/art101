@@ -27,5 +27,3 @@ const newText = generateRandomText();
 //append a new div to our output dic
 $("#output").append('<div class="text"><p>' + newText + '</p></div>');
 
-//button???
-$("#make-convo").append("<button id='make-convo'>Say Somethung</button>");
