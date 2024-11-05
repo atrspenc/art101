@@ -13,3 +13,8 @@ function generateRandomText(){
     //generate the random Lorem Ipsum-like text
     return text.slice(randStart, randStart + randLen);
 }
+
+//add an event listener for your button
+// click listener for button
+$("#make-convo").click(function(){
+    });
