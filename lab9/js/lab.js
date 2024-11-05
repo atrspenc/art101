@@ -19,3 +19,21 @@ $("#button-problem").click(function() {
     //now add (or subtract) the "special" class to the section
     $("#problem").toggleClass("special");
 })
+
+//for relection section
+$("#reflection").append("<button id='button-reflection'>Make Special</button>");
+
+// add a click listener to the challenge button
+$("#button-reflection").click(function() {
+    //now add (or subtract) the "special" class to the section
+    $("#reflection").toggleClass("special");
+})
+
+//for results section
+$("#results").append("<button id='button-results'>Make Special</button>");
+
+// add a click listener to the challenge button
+$("#button-results").click(function() {
+    //now add (or subtract) the "special" class to the section
+    $("#results").toggleClass("special");
+})
