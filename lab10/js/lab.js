@@ -17,7 +17,7 @@ function generateRandomText(){
 //add an event listener for your button
 // click listener for button
 $("#make-convo").click(function(){
-    });
+});
 
 //call function
 //get new fake dialogue
