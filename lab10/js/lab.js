@@ -8,26 +8,26 @@
 */
 
 //create a little helper function that will generate fake dialogue
-function generateRandomText(){
+function generateRandomText() {
     const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     const min = 3;
     const max = 100;
-    const randLen= Math.floor(Math.random() * (max - min + 1)) + min;
-    //get a random starting index to slice the Loren Ipsum text
-    const randStart= Math.floor(Math.random() * (text.length - randLen + 1));
-    //generate the random Lorem Ipsum-like text
+    const randLen = Math.floor(Math.random() * (max - min + 1)) + min;
+    // Get a random starting index to slice the Lorem Ipsum text
+    const randStart = Math.floor(Math.random() * (text.length - randLen + 1));
+    // Generate the random Lorem Ipsum-like text
     return text.slice(randStart, randStart + randLen);
-}
+  }
+
 
 //add an event listener for your button
 // click listener for button
 $("#make-convo").click(function(){
 
-//call function
-//get new fake dialogue
+// get new fake dialogue
 const newText = generateRandomText();
 
 //select output div and append a new div with newText
-//append a new div to our output dic
+// append a new div to our output div
 $("#output").append('<div class="text"><p>' + newText + '</p></div>');
 });
