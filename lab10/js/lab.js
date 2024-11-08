@@ -3,7 +3,7 @@
 // Date: 7 November 2024
 
 //create a little helper function that will generate fake dialogue
-function generateRandomText() {
+function generateRandomText(){
     const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
     const min = 3;
     const max = 100;
