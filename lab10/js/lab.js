@@ -1,6 +1,11 @@
-// index.js - Lab 10 JavaScript for the Web
-// Author: Athena Spencer
-// Date: 7 November 2024
+/*
+    lab.js - This simple JavaScript/jQuery script appends new elements to an output div
+
+    Requirements: jQuery must be loaded for this script to work.
+
+    Author: Athena Spencer
+    Date: 11/7/24
+*/
 
 //create a little helper function that will generate fake dialogue
 function generateRandomText(){
