@@ -21,8 +21,8 @@ $("#submit").click(function() {
     //sort name
     const userNameSorted = sortString(userName);
 
+    //append a new div to our output div
+    $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
 
 });
 
- //append a new div to our output div
- $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
