@@ -8,14 +8,9 @@
     background-color: #DDD8C4;
   }
 
-.text p {
-  display: inline-block;
-  max-width: 60%;
-  margin: 3px;
-  padding: 5px 10px;
-  border-radius: 15px;
-  background-color: #87A96B;
-  color: white;
-  font-family:'Courier New';
-  font-size: 0.8em;
+#output {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #DDD8C4;
 }
