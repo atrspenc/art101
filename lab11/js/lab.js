@@ -15,13 +15,11 @@ function sortString(inputString) {
 
 // click listener for button
 $("#submit").click(function() {
-    //get value of input field
+     //get value of input field
     const userName = $("#user-name").val();
-
     //sort name
     const userNameSorted = sortString(userName);
 
     //append a new div to our output div
     $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
 });
-
