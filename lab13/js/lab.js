@@ -27,9 +27,8 @@ function fuzzBuzz() {
         } else {
             oneLongString += " " + i;
         }
+        $("#output").html(oneLongString);
     }
 }
 
 fuzzBuzz();
-
-$("#output").html(oneLongString);
