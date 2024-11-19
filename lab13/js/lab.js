@@ -31,3 +31,5 @@ function fuzzBuzz() {
 }
 
 fuzzBuzz();
+
+$("#output").html(oneLongString);
