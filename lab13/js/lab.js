@@ -18,13 +18,19 @@ for (i=1; i <= 200; i++) {
         console.log("Buzz!");
     }
     //If the number is a multiple of 7, it should print "Boom!"
-    else if (1%7 == 0) {
+    else if (i%7 == 0) {
         console.log("Boom!");
     }
-    
+    //If the number is a multiple of more than one 3, 5 or 7, it should combine Fizz, Buzz, and Boom. For example, if the number is a multiple of 3 AND 5, it should print "FizzBuzz!" and so on.
+    else if (i%15 == 0) {
+        console.log("FizzBuzz!");
+    }
+    else if (i%21 == 0) {
+        console.log("FizzBoom!");
+    }
+    else if (i%35 == 0) {
+        console.log("BuzzBoom!");
     }
 }
 
 
-
-//If the number is a multiple of more than one 3, 5 or 7, it should combine Fizz, Buzz, and Boom. For example, if the number is a multiple of 3 AND 5, it should print "FizzBuzz!" and so on.
